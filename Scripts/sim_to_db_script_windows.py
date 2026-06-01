@@ -13,9 +13,9 @@ except ImportError:
     from scapy.all import rdpcap, IP, RadioTap
 
 # CORRECTION 1 : Ajout du 'r' devant les chemins pour désactiver les caractères d'échappement Windows
-BASELINE_DIR = r'E:\UTC\SR09\Simulateur\IoD_Sim\results\baseline-2026-05-31.18-00-32'
-ATTACK_DIR   = r'E:\UTC\SR09\Simulateur\IoD_Sim\results\mitm_attack-2026-05-31.18-01-12'
-out          = r'E:\UTC\SR09\Dataset\sr09-iod\Dataset\5.csv'
+BASELINE_DIR = r'E:\UTC\SR09\Simulateur\IoD_Sim\results\baseline-2026-06-01.12-23-53'
+ATTACK_DIR   = r'E:\UTC\SR09\Simulateur\IoD_Sim\results\mitm_attack-2026-06-01.12-38-37'
+out          = r'E:\UTC\SR09\Dataset\sr09-iod\Dataset\14.csv'
 
 def extract_packets(results_dir, label):
     records = []
