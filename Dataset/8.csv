@@ -1,1 +1,0 @@
-window_start,src_ip,n_packets,pkt_rate,mean_ipd_ms,jitter_ms,rssi_mean_dbm,rssi_std_dbm,mean_pkt_len,std_pkt_len,ttl_mean,ttl_std,n_unique_src,n_unique_dst,dup_ip_id,label,node
